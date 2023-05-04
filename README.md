@@ -17,7 +17,7 @@ Not all samples have been ported yet. The following samples have been ported:
 ![Preview of listctrl Sample](samples/listctrl/preview.png?raw=true "Preview")
 - minimal
 
-![Preview of Minimal Sample](samples/listctrl/preview.png?raw=true "Preview")
+![Preview of Minimal Sample](samples/minimal/preview.png?raw=true "Preview")
 - ribbon
 
 ![Preview of Ribbon Sample](samples/ribbon/preview.png?raw=true "Preview")
