@@ -1,2 +1,3 @@
+add_subdirectory(layout)
 add_subdirectory(minimal)
 add_subdirectory(ribbon)
