@@ -3,6 +3,9 @@
   "version": "1.0",
   "dependencies": [
     {
+      "name": "opengl"
+    },
+    {
       "name": "wxwidgets"
     }
   ]

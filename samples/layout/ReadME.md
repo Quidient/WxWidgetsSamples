@@ -1,0 +1,1 @@
+![Preview of Layout Sample](preview.png?raw=true "Preview")

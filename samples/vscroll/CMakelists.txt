@@ -1,0 +1,5 @@
+add_executable (vscroll WIN32 vstest.cpp)
+
+target_link_libraries (vscroll PRIVATE
+wx::core
+wx::base)

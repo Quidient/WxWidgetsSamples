@@ -1,0 +1,18 @@
+set(
+  SRCS
+  dxfrenderer.h
+  dxfrenderer.cpp
+  penguin.h
+  penguin.cpp
+  trackball.h
+  trackball.c
+)
+
+add_executable (opengl_penguin WIN32 ${SRCS})
+
+target_link_libraries (opengl_penguin PRIVATE
+wx::core
+wx::base
+wx::wxgl)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/penguin.dxf.gz DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

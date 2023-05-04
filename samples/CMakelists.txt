@@ -1,1 +1,7 @@
+add_subdirectory(layout)
+add_subdirectory(minimal)
+add_subdirectory(opengl)
 add_subdirectory(ribbon)
+add_subdirectory(treelist)
+add_subdirectory(wrapsizer)
+add_subdirectory(vscroll)

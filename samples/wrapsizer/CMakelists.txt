@@ -1,0 +1,5 @@
+add_executable (wrapsizer WIN32 wrapsizer.cpp)
+
+target_link_libraries (wrapsizer PRIVATE
+wx::core
+wx::base)
