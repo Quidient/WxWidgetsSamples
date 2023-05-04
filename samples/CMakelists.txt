@@ -1,3 +1,4 @@
+add_subdirectory(aui)
 add_subdirectory(html)
 add_subdirectory(layout)
 add_subdirectory(listctrl)

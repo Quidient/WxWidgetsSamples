@@ -9,6 +9,10 @@ On Windows, run the SetupVSS.ps1 script to generate Visual Studio 2022 solution 
 ## Notes
 Not all samples have been ported yet. The following samples have been ported:
 
+- aui
+
+![Preview of AUI Sample](samples/aui/preview.png?raw=true "Preview")
+
 - html
 
 ![Preview of ABOUT Sample](samples/html/about_preview.png?raw=true "Preview")
