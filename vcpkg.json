@@ -6,7 +6,10 @@
       "name": "opengl"
     },
     {
-      "name": "wxwidgets"
+      "name": "wxwidgets",
+      "features": [
+        "webview"
+      ]
     }
   ]
 }
