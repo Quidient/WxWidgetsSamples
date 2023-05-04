@@ -1,0 +1,5 @@
+add_executable (treelist WIN32 treelist.cpp)
+
+target_link_libraries (treelist PRIVATE
+wx::core
+wx::base)

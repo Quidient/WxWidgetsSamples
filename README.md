@@ -11,3 +11,5 @@ Not all samples have been ported yet. The following samples have been ported:
 - layout
 - minimal
 - ribbon
+- treelist
+- wrapsizer
