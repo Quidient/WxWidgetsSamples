@@ -1,4 +1,5 @@
 add_subdirectory(layout)
+add_subdirectory(listctrl)
 add_subdirectory(minimal)
 add_subdirectory(opengl)
 add_subdirectory(ribbon)

@@ -9,6 +9,7 @@ On Windows, run the SetupVSS.ps1 script to generate Visual Studio 2022 solution 
 ## Notes
 Not all samples have been ported yet. The following samples have been ported:
 - layout
+- listctrl
 - minimal
 - ribbon
 - opengl

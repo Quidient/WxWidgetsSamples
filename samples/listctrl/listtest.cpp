@@ -15,7 +15,9 @@
 #ifndef WX_PRECOMP
 #include "wx/wx.h"
 #endif
-
+// TODO this is a hack to allow the sample to compile without images
+// This feature is set by wxwidgets, see https://docs.wxwidgets.org/3.0/page_cppconst.html
+#undef wxHAS_IMAGES_IN_RESOURCES
 #ifndef wxHAS_IMAGES_IN_RESOURCES
     #include "../sample.xpm"
 #endif
