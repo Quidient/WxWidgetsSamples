@@ -1,0 +1,11 @@
+set(
+  SRCS
+  listtest.h
+  listtest.cpp
+)
+
+add_executable (listctrl WIN32 ${SRCS})
+
+target_link_libraries (listctrl PRIVATE
+wx::core
+wx::base)

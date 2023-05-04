@@ -1,0 +1,8 @@
+add_executable (html_widget WIN32 widget.cpp)
+
+target_link_libraries (html_widget PRIVATE
+wx::core
+wx::base
+wx::wxhtml)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/start.htm DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

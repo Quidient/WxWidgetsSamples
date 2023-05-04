@@ -1,0 +1,9 @@
+add_executable (html_printing WIN32 printing.cpp)
+
+target_link_libraries (html_printing PRIVATE
+wx::core
+wx::base
+wx::wxhtml)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/logo6.gif DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test.htm DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

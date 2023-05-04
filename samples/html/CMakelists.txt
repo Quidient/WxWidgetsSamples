@@ -1,0 +1,8 @@
+add_subdirectory(about)
+add_subdirectory(help)
+add_subdirectory(helpview)
+add_subdirectory(printing)
+add_subdirectory(test)
+add_subdirectory(virtual)
+add_subdirectory(widget)
+add_subdirectory(zip)

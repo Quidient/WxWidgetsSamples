@@ -1,0 +1,9 @@
+add_executable (html_zip WIN32 zip.cpp)
+
+target_link_libraries (html_zip PRIVATE
+wx::core
+wx::base
+wx::wxhtml)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/start.htm DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/pages.zip DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

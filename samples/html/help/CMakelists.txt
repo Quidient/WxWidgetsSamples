@@ -1,0 +1,8 @@
+add_executable (html_help WIN32 help.cpp)
+
+target_link_libraries (html_help PRIVATE
+wx::core
+wx::base
+wx::wxhtml)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/helpfiles DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

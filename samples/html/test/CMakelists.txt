@@ -1,0 +1,9 @@
+add_executable (html_test WIN32 test.cpp)
+
+target_link_libraries (html_test PRIVATE
+wx::core
+wx::base
+wx::wxnet
+wx::wxhtml)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/rc DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
