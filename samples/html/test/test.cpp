@@ -251,7 +251,7 @@ MyFrame::MyFrame(const wxString& title, const wxPoint& pos, const wxSize& size)
     m_Html->SetRelatedStatusBar(1);
 #endif // wxUSE_STATUSBAR
     m_Html->ReadCustomization(wxConfig::Get());
-    m_Html->LoadFile(wxFileName("test.htm"));
+    m_Html->LoadFile(wxFileName("rc/test.htm"));
     m_Html->AddProcessor(m_Processor);
 
     wxTextCtrl *text = new wxTextCtrl(this, wxID_ANY, "",

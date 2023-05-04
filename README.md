@@ -9,6 +9,24 @@ On Windows, run the SetupVSS.ps1 script to generate Visual Studio 2022 solution 
 ## Notes
 Not all samples have been ported yet. The following samples have been ported:
 
+- html
+
+![Preview of ABOUT Sample](samples/html/about_preview.png?raw=true "Preview")
+
+![Preview of HELP Sample](samples/html/help_preview.png?raw=true "Preview")
+
+![Preview of HELPVIEW Sample](samples/html/helpview_preview.png?raw=true "Preview")
+
+![Preview of PRINTING Sample](samples/html/printing_preview.png?raw=true "Preview")
+
+![Preview of TEST Sample](samples/html/test_preview.png?raw=true "Preview")
+
+![Preview of VIRTUAL Sample](samples/html/virtual_preview.png?raw=true "Preview")
+
+![Preview of WIDGET Sample](samples/html/widget_preview.png?raw=true "Preview")
+
+![Preview of ZIP Sample](samples/html/zip_preview.png?raw=true "Preview")
+
 - layout
 
 ![Preview of Layout Sample](samples/layout/preview.png?raw=true "Preview")

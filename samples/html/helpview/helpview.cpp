@@ -68,15 +68,15 @@ bool MyApp::OnInit()
     wxConfig::Get(); // create an instance
 
     help = new wxHtmlHelpController;
+    // hard code test.zip path provided
+    //if (argc < 2) {
+    //    wxLogError("Usage : helpview <helpfile> [<more helpfiles>]");
+    //    wxLogError("  helpfile may be .hhp, .zip or .htb");
+    //    return false;
+    //}
 
-    if (argc < 2) {
-        wxLogError("Usage : helpview <helpfile> [<more helpfiles>]");
-        wxLogError("  helpfile may be .hhp, .zip or .htb");
-        return false;
-    }
-
-    for (int i = 1; i < argc; i++)
-        help->AddBook(wxFileName(argv[i]));
+    //for (int i = 1; i < argc; i++)
+        help->AddBook(wxFileName("test.zip"));
 
 #ifdef __WXMOTIF__
     delete wxLog::SetActiveTarget(new wxLogGui);
