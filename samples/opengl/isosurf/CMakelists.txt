@@ -1,0 +1,14 @@
+set(
+  SRCS
+  isosurf.h
+  isosurf.cpp
+)
+
+add_executable (opengl_isosurf WIN32 ${SRCS})
+
+target_link_libraries (opengl_isosurf PRIVATE
+wx::core
+wx::base
+wx::wxgl)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/isosurf.dat.gz DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

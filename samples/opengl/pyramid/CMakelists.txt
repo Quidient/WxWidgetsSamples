@@ -1,0 +1,18 @@
+set(
+  SRCS
+  mathstuff.h
+  mathstuff.cpp
+  oglpfuncs.h
+  oglpfuncs.cpp
+  oglstuff.h
+  oglstuff.cpp
+  pyramid.h
+  pyramid.cpp
+)
+
+add_executable (opengl_pyramid WIN32 ${SRCS})
+
+target_link_libraries (opengl_pyramid PRIVATE
+wx::core
+wx::base
+wx::wxgl)

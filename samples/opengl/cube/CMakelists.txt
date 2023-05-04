@@ -1,0 +1,12 @@
+set(
+  SRCS
+  cube.h
+  cube.cpp
+)
+
+add_executable (opengl_cube WIN32 ${SRCS})
+
+target_link_libraries (opengl_cube PRIVATE
+wx::core
+wx::base
+wx::wxgl)
