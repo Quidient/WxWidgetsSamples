@@ -1,0 +1,9 @@
+{
+  "name": "wxwidgets-samples",
+  "version": "1.0",
+  "dependencies": [
+    {
+      "name": "wxwidgets"
+    }
+  ]
+}

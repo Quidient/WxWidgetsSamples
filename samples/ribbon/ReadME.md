@@ -1,0 +1,1 @@
+![Preview of Ribbon Sample](preview.png?raw=true "Preview")
